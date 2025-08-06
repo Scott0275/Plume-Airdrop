@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f5f0ec;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.airdrop {
+  color: #888;
+}
+
+.connect-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.token-img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.connect-main {
+  margin-top: 1.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  border: none;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.footer-logo {
+  font-weight: bold;
+  margin-top: 1rem;
+}
